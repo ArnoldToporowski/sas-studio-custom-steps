@@ -41,11 +41,20 @@ The step also allows you to optionally pull out the "nlpNounGroup"s found.
 
 ## Download Sample Data File
 
-The **extras** folder contains a file with sample data of resumes from which you can extract entities like nlpPerson and nlpDate.  You just need to load this txt file into a caslib (like CASUSER).
+The **extras** folder contains a file with sample data of resumes from which you can extract entities like nlpPerson and nlpDate.  
 
-[resumes.txt](./extras/resumes.txt)
+[resumes.zip](./extras/resumes.zip)
+
+You just need to unzip this resumes.zip file into a folder on your local machine, and then use the Manage Data/Import/Local Files/Local File method as shown below (default values work fine, but you want to change the target folder).
+
+   ![](img/sample_import1.png)
+   ![](img/sample_import2.png)
 
 ## Change Log
+
+* Version 1.2 (18DEC2023)
+  * added instructions on how to import the sample data using the Manage Data/Import interface.
+  * changed the UI control "Column containing text to extract from:" to show only columns of type Character 
 
 * Version 1.1 (13DEC2023)
   * expanded support to include the nine out-of-the-box defined entities.
